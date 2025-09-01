@@ -32,5 +32,4 @@ pyh.raycast(1); \
 DPT.objects.processDirs(level='channel', cmd='import PyHipp as pyh; from PyHipp import mountain_batch; mountain_batch.mountain_batch(); from PyHipp import export_mountain_cells; export_mountain_cells.export_mountain_cells();'); \
 print(time.localtime()); \
 print(time.time()-t0);"
-
 aws sns publish --topic-arn arn:aws:sns:ap-southeast-1:591405765850:awsnotify --message "JobDone"
