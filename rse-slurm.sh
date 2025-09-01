@@ -1,14 +1,4 @@
-
-python -u -c "import PyHipp as pyh; \
-import time; \
-import os; \
-t0 = time.time(); \
-print(time.localtime()); \
-os.chdir('sessioneye'); \
-pyh.RPLSplit(SkipLFP=False, SkipHighPass=False); \
-print(time.localtime()); \
-print(time.time()-t0);"
-#!/bin/sh
+#!/bin/bash
 # Submit this script with: sbatch <this-filename>
 
 #SBATCH --time=24:00:00   # walltime
